@@ -58,3 +58,8 @@
         #-e . will help us to trigger the setup.py from the requirement.txt. when we try to install the requirements.txt with pip install -r requirement.txt
          -e .
     ```
+6) Create src folder with __init__.py
+
+   
+   [Documentation](src)
+   
