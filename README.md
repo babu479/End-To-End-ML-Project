@@ -1,8 +1,8 @@
 ###End-To-End-ML-Project
-***
+---
 
 ##Day1:
----
+***
 
 1) Setup the github repository:
 
