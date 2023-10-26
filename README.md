@@ -3,6 +3,7 @@
 
 ##Day1:
 ---
+<p style="background-color: lightblue;">This is a paragraph with a light blue background.</p>
 
 1) Setup the github repository
 
