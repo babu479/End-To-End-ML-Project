@@ -7,7 +7,12 @@
 1) Setup the github repository
 
    `Create github repository`
-2) New environment (.venv)
+
+2) Create .gitignore file
+
+   ``Create file --> .gitignore --> template python --> commit``
+   
+3) New environment (.venv)
    
 
    ```
@@ -15,3 +20,33 @@
    #python3 -m venv .venv
    #source .venv/bin/activate
    ```
+4) create setup.py with the below content
+
+   ```
+      from setuptools import find_packages,setup
+      from typing import List
+
+      def get_requirements(file_name:str)->List[str]:
+       '''
+       This function will return the list of requirements
+       '''
+       HYPEN_E_DOT="-e ."
+       requirements=[]
+       with open(file_name) as file_obj:
+           requirements=file_obj.readlines()
+           requirements=[req.replace("\n","") for req in requirements]
+        
+           if HYPEN_E_DOT in requirements:
+               requirements.remove(HYPEN_E_DOT)
+       return requirements
+
+      setup(
+       name='MLProject',
+       version='0.0.1',
+       author='Vinod',
+       author_email='vinod@gmail.com',
+       packages=find_packages(),
+       install_requires=get_requirements('requirements.txt')
+      )
+   ```
+5 
