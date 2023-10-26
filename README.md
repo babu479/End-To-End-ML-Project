@@ -49,4 +49,12 @@
        install_requires=get_requirements('requirements.txt')
       )
    ```
-5 
+5) Create requirement.txt with the required packages
+
+    ```
+         pandas
+         numpy
+         seaborn
+        #-e . will help us to trigger the setup.py from the requirement.txt. when we try to install the requirements.txt with pip install -r requirement.txt
+         -e .
+    ```
