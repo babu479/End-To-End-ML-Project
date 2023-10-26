@@ -60,4 +60,11 @@
     ```
     
 6) Create src folder with __init__.py: [src](src)
+
+7) Install requirements.txt with pip:
+
+   ```
+   pip install -r requirements.txt
+   
+   ```
    
