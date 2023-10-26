@@ -3,17 +3,16 @@
 
 ##Day1:
 ---
-<p style="background-color: lightblue;">This is a paragraph with a light blue background.</p>
 
-1) Setup the github repository
+1) Setup the github repository:
 
    `Create github repository`
 
-2) Create .gitignore file
+2) Create .gitignore file: [.gitignore](.gitignore)
 
    ``Create file --> .gitignore --> template python --> commit``
    
-3) New environment (.venv)
+3) New environment (.venv): [.venv](.venv)
    
 
    ```
@@ -21,7 +20,7 @@
    #python3 -m venv .venv
    #source .venv/bin/activate
    ```
-4) create setup.py with the below content
+4) create setup.py with the below content : [setup.py](setup.py)
 
    ```
       from setuptools import find_packages,setup
@@ -50,7 +49,7 @@
        install_requires=get_requirements('requirements.txt')
       )
    ```
-5) Create requirement.txt with the required packages
+5) Create requirement.txt with the required packages: [requirement.txt](requirements.txt)
 
     ```
          pandas
@@ -59,8 +58,5 @@
         #-e . will help us to trigger the setup.py from the requirement.txt. when we try to install the requirements.txt with pip install -r requirement.txt
          -e .
     ```
-6) Create src folder with __init__.py
-
-   
-   [SRC_Dir](src)
+6) Create src folder with __init__.py: [src](src)
    
