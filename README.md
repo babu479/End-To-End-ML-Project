@@ -6,13 +6,17 @@
 
 1) Setup the github repository:
 
-   `Create github repository`
+   ```markdown
+   Create github repository
+   ```
 
-2) Create .gitignore file: [.gitignore](.gitignore)
+3) Create .gitignore file: [.gitignore](.gitignore)
 
-   ``Create file --> .gitignore --> template python --> commit``
+   ```markdown
+   Create file --> .gitignore --> template python --> commit
+   ```
    
-3) New environment (.venv): [.venv](.venv)
+5) New environment (.venv): [.venv](.venv)
    
 
    ```shell
@@ -20,7 +24,7 @@
    #python3 -m venv .venv
    #source .venv/bin/activate
    ```
-4) create setup.py with the below content : [setup.py](setup.py)
+6) create setup.py with the below content : [setup.py](setup.py)
 
    ```python
       from setuptools import find_packages,setup
@@ -49,7 +53,7 @@
        install_requires=get_requirements('requirements.txt')
       )
    ```
-5) Create requirement.txt with the required packages: [requirement.txt](requirements.txt)
+7) Create requirement.txt with the required packages: [requirement.txt](requirements.txt)
 
     ```python
          pandas
@@ -59,9 +63,9 @@
          -e .
     ```
     
-6) Create src folder with __init__.py: [src](src)
+8) Create src folder with __init__.py: [src](src)
 
-7) Install requirements.txt with pip:
+9) Install requirements.txt with pip:
 
    ```shell
    pip install -r requirements.txt
