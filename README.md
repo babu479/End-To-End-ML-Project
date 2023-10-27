@@ -76,3 +76,17 @@
 9) Create __init__.py under components: [src/components/__init__.py](src/components/__init__.py)
 
 10) create data ingestion file under components directory: [src/components/data_ingestion.py](src/components/data_ingestion.py)
+
+11) Create data transformation python file under src --> components directory: [src/components/data_transformation.py](src/components/data_transformation.py)
+
+12) create model trainer python file under src --> components directory: [src/components/model_trainer.py](src/components/model_trainer.py)
+
+13) Create pipeline directory with all the files: [src/pipeline](src/pipeline)
+
+    ```
+    Pipeline
+       |
+       |__ __init__.py
+       |__ predict_pipeline.py
+       |__ train_pipeline.py
+    ```
