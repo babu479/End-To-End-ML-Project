@@ -15,14 +15,14 @@
 3) New environment (.venv): [.venv](.venv)
    
 
-   ```
+   ```shell
    <!-- To create new environment check the below python commands -->
    #python3 -m venv .venv
    #source .venv/bin/activate
    ```
 4) create setup.py with the below content : [setup.py](setup.py)
 
-   ```
+   ```python
       from setuptools import find_packages,setup
       from typing import List
 
@@ -51,7 +51,7 @@
    ```
 5) Create requirement.txt with the required packages: [requirement.txt](requirements.txt)
 
-    ```
+    ```python
          pandas
          numpy
          seaborn
@@ -63,7 +63,7 @@
 
 7) Install requirements.txt with pip:
 
-   ```
+   ```shell
    pip install -r requirements.txt
    
    ```
@@ -83,7 +83,7 @@
 
 13) Create pipeline directory with all the files: [src/pipeline](src/pipeline)
 
-    ```
+    ```shell
     
     Pipeline
        |
@@ -94,7 +94,7 @@
     ```
 14) Create logger.py for  log file and the logs: [src/logger.py](src/logger.py)
 
-    ```
+    ```python
     
     import logging
     import os
@@ -115,7 +115,7 @@
 
 15) Create exception.py for exception handlings : [src/exception.py](src/exception.py)
 
-    ```
+    ```python
       import sys
       def error_message_detail(error,error_detail:sys):
           _,_,exc_tb=error_detail.exc_info()
@@ -137,6 +137,6 @@
 
     ```
 
-16) create utils.py file in src folder: [src/utils.py](src/utils.py)
+16) create utils.py file in src folder:  [src/utils.py](src/utils.py)
 
 17) 
