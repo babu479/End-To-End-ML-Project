@@ -71,8 +71,8 @@
 ##Day2:
 ***
 
-8) Create components folder under src : [components](src/components)
+8) Create components folder under src : [src/components](src/components)
 
-9) Create __init__.py under components: [components](src/components/__init__.py)
+9) Create __init__.py under components: [src/components/__init__.py](src/components/__init__.py)
 
-10) create data ingestion file under components directory: [components](src/components/data_ingestion.py)
+10) create data ingestion file under components directory: [src/components/data_ingestion.py](src/components/data_ingestion.py)
