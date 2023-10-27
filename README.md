@@ -84,15 +84,18 @@
 13) Create pipeline directory with all the files: [src/pipeline](src/pipeline)
 
     ```
+    
     Pipeline
        |
        |__ __init__.py
        |__ predict_pipeline.py
        |__ train_pipeline.py
+    
     ```
-14) Create logger.py for the log file and the logs: [src/logger.py](src/logger.py)
+14) Create logger.py for  log file and the logs: [src/logger.py](src/logger.py)
 
     ```
+    
     import logging
     import os
     from datetime import datetime
@@ -108,4 +111,28 @@
     level=logging.INFO,)
 
       
+    ```
+
+15) Create exception.py for exception handlings : [src/exception.py](src/exception.py)
+
+    ```
+      import sys
+      def error_message_detail(error,error_detail:sys):
+          _,_,exc_tb=error_detail.exc_info()
+          file_name=exc_tb.tb_frame.f_code.co_filename
+          error_message="Error occured in python script name [{0}] line number [{1}] error message[{2}]".format(
+          file_name,exc_tb.tb_lineno,str(error))
+
+       return error_message
+
+    
+
+      class CustomException(Exception):
+          def __init__(self,error_message,error_detail:sys):
+              super().__init__(error_message)
+              self.error_message=error_message_detail(error_message,error_detail=error_detail)
+    
+          def __str__(self):
+              return self.error_message
+
     ```
