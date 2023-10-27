@@ -61,3 +61,18 @@
     
 6) Create src folder with __init__.py: [src](src)
 
+7) Install requirements.txt with pip:
+
+   ```
+   pip install -r requirements.txt
+   
+   ```
+   
+##Day2:
+***
+
+8) Create components folder under src : [src/components](src/components)
+
+9) Create __init__.py under components: [src/components/__init__.py](src/components/__init__.py)
+
+10) create data ingestion file under components directory: [src/components/data_ingestion.py](src/components/data_ingestion.py)
