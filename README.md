@@ -90,3 +90,22 @@
        |__ predict_pipeline.py
        |__ train_pipeline.py
     ```
+14) Create logger.py for the log file and the logs: [src/logger.py](src/logger.py)
+
+    ```
+    import logging
+    import os
+    from datetime import datetime
+    LOG_FILE=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
+    log_path=os.path.join(os.getcwd(),"logs",LOG_FILE)
+    os.makedirs(log_path,exist_ok=True)
+
+    LOG_FILE_PATH=os.path.join(log_path,LOG_FILE)
+
+    logging.basicConfig(
+    filename=LOG_FILE_PATH,
+    format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
+    level=logging.INFO,)
+
+      
+    ```
