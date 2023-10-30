@@ -79,6 +79,7 @@
 
 9) Create __init__.py under components: [src/components/__init__.py](src/components/__init__.py)
 
+<<<<<<< HEAD
 10) create data ingestion file under components directory: [src/components/data_ingestion.py](src/components/data_ingestion.py)
 
 11) Create data transformation python file under src --> components directory: [src/components/data_transformation.py](src/components/data_transformation.py)
@@ -144,3 +145,7 @@
 16) create utils.py file in src folder:  [src/utils.py](src/utils.py)
 
 17) 
+
+10) create data ingestion file under components directory: [components](src/components/data_ingestion.py)
+
+
