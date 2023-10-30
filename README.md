@@ -143,4 +143,20 @@
 
 16) create utils.py file in src folder:  [src/utils.py](src/utils.py)
 
-17) 
+**Day3:
+***
+
+17) Created a folder name notebook. it has data folder with student.csv file under notebook we have some other of model tainer and EDA students performance
+
+# notebook folder structure
+
+    .
+    ├── ...
+    ├── notebook                    # Documentation files (alternatively `doc`)
+    │   ├── data
+    |    |- # Table of contents
+    │   ├── faq.md              # Frequently asked questions
+    │   ├── misc.md             # Miscellaneous information
+    │   ├── usage.md            # Getting started guide
+    │   └── ...                 # etc.
+    └── ...
