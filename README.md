@@ -148,4 +148,3 @@
 
 10) create data ingestion file under components directory: [components](src/components/data_ingestion.py)
 
-
