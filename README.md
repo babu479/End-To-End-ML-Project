@@ -71,7 +71,7 @@
    pip install -r requirements.txt
    
    ```
-   
+***   
 ##Day2:
 ***
 
@@ -143,6 +143,7 @@
 
 16) create utils.py file in src folder:  [src/utils.py](src/utils.py)
 
+***
 **Day3:
 ***
 
@@ -160,3 +161,6 @@
     │   ├── 1. EDA STUDENT PERFORMANCE.ipnyb
     │   ├── 2. MODEL TRAINING           
     └── ...
+18) Open [1.EDA STUDENT](1 . EDA STUDENT PERFORMANCE.ipynb) go through each and every step in the EDA file
+
+    
