@@ -152,11 +152,11 @@
 
     .
     ├── ...
-    ├── notebook                    # Documentation files (alternatively `doc`)
-    │   ├── data
-    |    |- # Table of contents
-    │   ├── faq.md              # Frequently asked questions
-    │   ├── misc.md             # Miscellaneous information
-    │   ├── usage.md            # Getting started guide
-    │   └── ...                 # etc.
+    ├── notebook                   
+    │   ├── notebook
+    |     |- data
+    |       |- stud.csv
+    │     |- catboost_info              
+    │   ├── 1. EDA STUDENT PERFORMANCE.ipnyb
+    │   ├── 2. MODEL TRAINING           
     └── ...
