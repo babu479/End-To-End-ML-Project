@@ -129,8 +129,6 @@
 
        return error_message
 
-    
-
       class CustomException(Exception):
           def __init__(self,error_message,error_detail:sys):
               super().__init__(error_message)
@@ -163,4 +161,4 @@
     └── ...
 18) Open [1.EDA STUDENT](1 . EDA STUDENT PERFORMANCE.ipynb) go through each and every step in the EDA file
 
-    
+
