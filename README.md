@@ -71,7 +71,7 @@
    pip install -r requirements.txt
    
    ```
-   
+***   
 ##Day2:
 ***
 
@@ -79,7 +79,6 @@
 
 9) Create __init__.py under components: [src/components/__init__.py](src/components/__init__.py)
 
-<<<<<<< HEAD
 10) create data ingestion file under components directory: [src/components/data_ingestion.py](src/components/data_ingestion.py)
 
 11) Create data transformation python file under src --> components directory: [src/components/data_transformation.py](src/components/data_transformation.py)
@@ -130,8 +129,6 @@
 
        return error_message
 
-    
-
       class CustomException(Exception):
           def __init__(self,error_message,error_detail:sys):
               super().__init__(error_message)
@@ -144,7 +141,24 @@
 
 16) create utils.py file in src folder:  [src/utils.py](src/utils.py)
 
-17) 
+***
+**Day3:
+***
 
-10) create data ingestion file under components directory: [components](src/components/data_ingestion.py)
+17) Created a folder name notebook. it has data folder with student.csv file under notebook we have some other of model tainer and EDA students performance
+
+# notebook folder structure
+
+    .
+    ├── ...
+    ├── notebook                   
+    │   ├── notebook
+    |     |- data
+    |       |- stud.csv
+    │     |- catboost_info              
+    │   ├── 1. EDA STUDENT PERFORMANCE.ipnyb
+    │   ├── 2. MODEL TRAINING           
+    └── ...
+18) Open [1.EDA STUDENT](1 . EDA STUDENT PERFORMANCE.ipynb) go through each and every step in the EDA file
+
 
